@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import {Media} from 'reactstrap';
 
-class Menu extends component{
+class Menu extends Component{
     constructor(props){
         super(props);
 
@@ -10,7 +10,7 @@ class Menu extends component{
                 {
                     id: 0,
                     name:'Uthappizza',
-                    image: 'assets/images/uthappizza.png',
+                    image: 'assets/images/images/uthappizza.png',
                     category: 'mains',
                     label:'Hot',
                     price:'4.99',
@@ -18,7 +18,7 @@ class Menu extends component{
                  {
                     id: 1,
                     name:'Zucchipakoda',
-                    image: 'assets/images/zucchipakoda.png',
+                    image: 'assets/images/images/zucchipakoda.png',
                     category: 'appetizer',
                     label:'',
                     price:'1.99',
@@ -26,7 +26,7 @@ class Menu extends component{
                  {
                     id: 2,
                     name:'Vadonut',
-                    image: 'assets/images/vadonut.png',
+                    image: 'assets/images/images/vadonut.png',
                     category: 'appetizer',
                     label:'New',
                     price:'1.99',
@@ -34,7 +34,7 @@ class Menu extends component{
                  {
                     id: 3,
                     name:'ElaiCheese Cake',
-                    image: 'assets/images/elaicheesecake.png',
+                    image: 'assets/images/images/elaicheesecake.png',
                     category: 'dessert',
                     label:'',
                     price:'2.99',
